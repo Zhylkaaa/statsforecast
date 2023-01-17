@@ -627,7 +627,7 @@ def arima(
     init=None,
     method="CSS",
     SSinit="Gardner1980",
-    optim_method="BFGS",
+    optim_method="Nelder-Mead",
     kappa=1e6,
     tol=1e-8,
     optim_control={"maxiter": 100},
